@@ -235,28 +235,29 @@ table {
 
 .position-box-1 {
   border: 4px solid purple;
-  padding: 40px 120px;
-  display: inline-block;
+  height: 350px;
+  width: 350px;
   position: absolute;
   left: 12px;
-  top: 304px;
+  padding-top: 15px;
 }
 
 .position-box-2 {
   border: 4px solid purple;
-  padding: 40px 120px;
-  display: block;
-  width: fit-content;
+  height: 350px;
+  width: 350px;
   margin: 0 auto;
+  padding-top: 15px;
 }
 
 .position-box-3 {
   border: 4px solid purple;
-  padding: 40px 120px;
-  display: inline-block;
+  height: 350px;
+  width: 350px;
   position: absolute;
   right: 12px;
   top: 304px;
+  padding-top: 15px;
 }
 
 .position-box-1 h3,
@@ -265,14 +266,16 @@ table {
   border: 2px solid rgb(250, 161, 60);
   background-color: rgb(7, 56, 56);
   color: white;
-  padding: 30px 10px;
-  margin: 2px 0;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px auto;
 }
 
 .position-box .position-hero {
   border: 2px solid rgb(107, 41, 41);
   background-color: rgb(50, 71, 85);
-  padding-left: 20px;
 }
 
 .position-box-2 .hero22 {
@@ -284,20 +287,20 @@ table {
 
 .position-box-3 .hero23 {
   position: relative;
-  right: 78px;
+  right: 95px;
   z-index: 1;
 }
 
 .position-box-3 .head3 {
   position: relative;
-  top: -82px;
+  top: -102px;
 }
 
 .position-section-p {
   border: 4px solid purple;
   margin: 10px auto;
   text-align: center;
-  width: 335px;
+  width: 350px;
   height: 400px;
   overflow-y: scroll;
 }
@@ -306,10 +309,12 @@ table {
   position: absolute;
   top: 700px;
   left: 620px;
-  display: inline-block;
   border: 2px solid rgb(107, 41, 41);
   background-color: rgb(50, 71, 85);
-  padding: 30px 25px;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
   color: white;
 }
 
@@ -317,6 +322,16 @@ table {
 
 .flex-section {
   background-color: cadetblue;
+}
+.flex-common {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(250, 161, 60);
+  background-color: rgb(7, 56, 56);
+  color: white;
+  height: 100px;
+  width: 100px;
 }
 
 .flex-section h1 {
@@ -332,26 +347,18 @@ table {
 }
 
 .flex-1-item {
-  border: 2px solid rgb(250, 161, 60);
-  background-color: rgb(7, 56, 56);
-  color: white;
-  padding: 30px 20px;
-  margin: 2px 0;
+  margin: 2px auto;
 }
 
 .flex-2 {
   width: 1100px;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .flex-2-item {
-  border: 2px solid rgb(250, 161, 60);
-  background-color: rgb(7, 56, 56);
-  color: white;
-  padding: 30px 20px;
   margin: 2px 2px;
 }
 
@@ -368,24 +375,55 @@ table {
 }
 
 .flex-3-item {
-  border: 2px solid rgb(250, 161, 60);
-  background-color: rgb(7, 56, 56);
-  color: white;
-  padding: 30px 20px;
-  margin: 0 2px;
+  margin: auto 2px;
 }
 
-.stretch {
+.stretched-box {
+  flex-grow: 1;
+}
+
+.flex-4 {
   display: flex;
-  flex-wrap: wrap;
-  justify-self: stretch;
+  width: 1100px;
+  margin: 50px auto;
+}
+
+.flex-4-item {
+  margin: 0 auto;
+  padding-left: 25px;
+  justify-content: space-around;
+}
+
+/* =========================================== Footer ================================ */
+
+.footer {
+  display: flex;
+  background-color: blueviolet;
+  padding: 40px;
+  margin: 10px auto;
+}
+
+.left-footer {
+  background-color: darkgoldenrod;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.mid-footer {
+  color: darkgoldenrod;
+  margin: 0 auto;
+}
+
+.mid-footer i {
+  font-size: 30px;
+  margin-right: 20px;
 }
 
 /* ========================================== Scroll Up ==============================  */
 
 .go-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: -40px;
   font-size: 20px;
   background-color: crimson;
@@ -393,4 +431,12 @@ table {
   padding: 20px 60px 20px 20px;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.aircampus-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  height: 20px;
+  width: 60px;
 }
