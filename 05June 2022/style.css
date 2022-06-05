@@ -1,0 +1,23 @@
+:root {
+  --primary-color: green;
+  --danger-color: yellow;
+  --maxw: 233px;
+}
+
+article {
+  background-color: var(--primary-color);
+  border: 2px dashed var(--danger-color);
+}
+
+.container {
+  max-width: var(--maxw);
+  margin: auto;
+}
+
+article::before {
+  content: "This is my content before article";
+}
+
+article::after {
+  content: "This is my content after article";
+}
