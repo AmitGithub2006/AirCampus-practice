@@ -1,0 +1,47 @@
+/* Moving circle to center by flex */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  border-radius: 50%;
+} */
+
+/* Moving circle to center by grid */
+
+/* .container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  border-radius: 50%;
+} */
+
+/* Moving circle to center by position */
+
+.container {
+  height: 100vh;
+}
+
+.circle {
+  position: absolute;
+  top: 50vh;
+  left: 50vh;
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
