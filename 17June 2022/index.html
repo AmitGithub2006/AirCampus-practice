@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Take a number and print out the first digit of the number.
+      let a = -534;
+      if (a < 0) {
+        a = a * -1;
+        console.log(Math.floor(a / 100));
+      } else {
+        console.log(Math.floor(a / 100));
+      }
+
+      //   Quotient and remainder
+      let b = 10;
+      c = 0;
+      if (c == 0) {
+        console.log("-1,-1");
+      } else {
+        console.log(Math.floor(b / c) + "," + (b % c));
+      }
+
+      //Area of triangle
+      let d = 3;
+      e = 4;
+      f = 5;
+      s = (d + e + f) / 2;
+      area = Math.pow(s * (s - d) * (s - e) * (s - f), 0.5);
+      console.log(area);
+    </script>
+  </body>
+</html>
