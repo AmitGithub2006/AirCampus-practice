@@ -19,7 +19,7 @@
 //     console.log('prev',prev,prev+ curr)
 //     return prev+curr;
 // })
-// console.log(sumArr)
+// console.log(sumArr);
 
 // Ques2: Sum of elements using reduce(with initial value).
 
