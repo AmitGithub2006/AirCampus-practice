@@ -16,5 +16,5 @@
 // 2.Given an object containing the width length and height of a box. Return the volume of the box.
 
 // Soln:-
-let obj = { length: 7, width: 2, height: 1 }
-console.log(Object.values(obj).reduce((a,b) => a*b));
+// let obj = { length: 7, width: 2, height: 1 }
+// console.log(Object.values(obj).reduce((a,b) => a*b));
