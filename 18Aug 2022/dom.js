@@ -33,6 +33,5 @@ function filterData() {
   let filteredData = data.filter((e) => {
     return e.color === "red";
   });
-  console.log("filteredData", filteredData);
   showData(filteredData);
 }
