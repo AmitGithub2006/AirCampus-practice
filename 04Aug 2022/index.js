@@ -21,4 +21,4 @@ while (q < length) {
     q++;
     result = q -p > result ? q - p : result;
 }
-console.log(result);
+console.log(result)
