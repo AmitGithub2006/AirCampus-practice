@@ -33,7 +33,7 @@ function factorial(n,fact) {
         fact*=n;
         return factorial(n-1,fact);
     }
-    return fact;
+    return fact
 }
 console.log(factorial(6,1));
 
